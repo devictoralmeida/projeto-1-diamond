@@ -24,23 +24,26 @@
 }
 
 .title-4--white {
-  color: var(--color-white);
   letter-spacing: 3px;
   font-size: var(--font-title-2);
 }
 
-.paragraph-1 {
-  color: var(--text-color);
+.title-4--white,
+.paragraph-1--white {
+  color: var(--color-white);
+}
+
+.paragraph-1,
+.paragraph-1--white {
   letter-spacing: 2px;
   font-weight: bold;
   font-size: var(--font-text-2);
 }
 
+.paragraph-1 {
+  color: var(--text-color);
+}
+
 .paragraph-1--white {
-  color: var(--color-white);
-  letter-spacing: 2px;
   text-align: center;
-  line-height: 150%;
-  font-weight: bold;
-  font-size: var(--font-text-2);
 }
